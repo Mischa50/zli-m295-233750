@@ -1,5 +1,4 @@
 function greifeAufDatenbankZu(query, callback) {
-    // Datenbankzugriff simulieren
     setTimeout(() => {
       const ergebnis = 'Datenbankergebnis: ' + query;
       callback(ergebnis);

@@ -9,7 +9,6 @@ const addTwoNumbers1 = function (a, b){
 }
 
 function greifeAufDatenbankZu(query, callback) {
-  // Datenbankzugriff simulieren
   setTimeout(() => {
     const ergebnis = 'Datenbankergebnis: ' + query;
     callback(ergebnis);
